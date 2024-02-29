@@ -675,6 +675,9 @@ a {
 }
 
 @media (max-width: 768px) {
+  html{
+    overflow-x: hidden;
+  }
    .header #menu-btn {
     display: inline-block;
   }
@@ -702,6 +705,7 @@ a {
 @media (max-width: 576px){
   html{
     font-size: 50%;
+    overflow-x: hidden;
   }
   .header #menu-btn{
     display: inline-block;
