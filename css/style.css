@@ -160,11 +160,12 @@ a {
   width: 35rem;
   background-color: #fff;
   box-shadow: 0px 20px 14px 0px rgb(0 0 0 / 75%);
-  right: -100%;
+  display: none;
 }
 
 .header .cart-items-container.active {
   right: 3rem;
+  display: inline;
 }
 
 .header .cart-items-container .cart-item {
@@ -655,6 +656,7 @@ a {
 @media (max-width: 991px) {
   html {
     font-size: 55%;
+    overflow-x: hidden;
   }
 
   .header {
@@ -689,9 +691,11 @@ a {
     width: 30rem;
     box-shadow: 0px 20px 14px 0px rgb(0 0 0 / 75%);
     right: -100%;
+    display: none;
   }
   .header .navbar.active {
     right: 3rem;
+    display: inline;
   }
   .header .navbar a {
     color: var(--black-color);
